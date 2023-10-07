@@ -34,7 +34,7 @@ export default (app: express.Application) => {
   });
 
   // app.use(legalAgreement);
-  app.use("api/",routes);
+  app.use("/api",routes);
   app.use(error);
   //app.use(error);
 
